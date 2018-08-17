@@ -12,3 +12,6 @@ https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-s
 Adding a new SSH key to your GitHub account:
 
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
+
+Jenkins Github Plugin Page
+https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
