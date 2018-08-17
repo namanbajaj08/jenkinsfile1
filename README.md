@@ -15,3 +15,11 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 Jenkins Github Plugin Page
 https://wiki.jenkins-ci.org/display/JENKINS/GitHub+Plugin
+
+Static Code Analysis Tools for Java
+----------------------------------------
+PMD Jenkins plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/PMD+Plugin
+
+Findbugs Jenkins Plugin:
+https://wiki.jenkins-ci.org/display/JENKINS/FindBugs+Plugin
