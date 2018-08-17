@@ -23,3 +23,9 @@ https://wiki.jenkins-ci.org/display/JENKINS/PMD+Plugin
 
 Findbugs Jenkins Plugin:
 https://wiki.jenkins-ci.org/display/JENKINS/FindBugs+Plugin
+
+Groovy:
+http://groovy-lang.org/
+
+Jenkinsfile:
+https://jenkins.io/doc/book/pipeline/jenkinsfile/
