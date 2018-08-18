@@ -1,0 +1,48 @@
+1) Adding Post Build Actions
+Archive the artifacts
+**/*.war
+
+2) Download Tomcat 8.5.5 zip file
+
+3) Change the server.xml in conf to Search for connector 8090
+
+4) tomcat-users.xml
+<role rolename="manager-script"/>
+  <role rolename="admin-gui"/>
+  <user username="tomcat" password="tomcat" roles="manager-script,admin-gui"/>
+
+5) Copy Artifact and Deploy to container plugin
+
+6) New Job
+
+7) Add a Build Step - Choose Copy artifacts from another project
+Project Name = maven-project
+Atrtifact to copy - **/*.war
+
+8) Post Build Actions
+Select Deploy war/ear to container
+WAR/EaR files - **/*.war
+Containers = Tomcat 7.x
+Configure Tomcat Details
+
+9) Add downstream Job to the Post Build Configuration of the maven-project
+
+10) localhost:8090/webapp
+
+
+Pipeline As Code
+===================
+1) Pipeline plugin install
+2) Create a new Job - Select Pipeline
+3) Under Pipeline Select Definition as Pipeline script  from SCM
+4) SCM => GIT and Give the Git URl
+5) Script Path = Jenkinsfile
+
+
+	 	
+
+
+
+
+
+
